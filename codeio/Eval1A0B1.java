@@ -11,7 +11,7 @@ public class Eval1A0B1 {
         int n=str.length();
         char[] ch=str.toCharArray();
         int ans=(int)ch[0]-48;
-        for(int i=1;i<n;i++){
+        for(int i=1;i<n-1;i++){
             if(ch[i]=='A'){
                 int temp=(int)ch[i+1]-48;
                 ans=ans&temp;

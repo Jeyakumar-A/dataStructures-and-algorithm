@@ -2,7 +2,7 @@ package codeio;
 
 public class MissAndRepeat {
     public static void main(String[] args) {
-        int[] arr={2,2};
+        int[] arr={2,2,1,4,4,3};
         int n=arr.length;
         missRepeat(arr,n);
     }

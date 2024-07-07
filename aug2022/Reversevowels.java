@@ -2,7 +2,7 @@ package aug2022;
 
 public class Reversevowels {
     public static void main(String[] args) {
-        String str=" I Worked in Zoho";
+        String str=" I Worked in oho";
         System.out.println(reverseVowels(str));
 
 

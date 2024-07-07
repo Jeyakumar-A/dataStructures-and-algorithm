@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class KeyPair {
     public static void main(String[] args) {
-        int[] arr={1,4,45,6,10,8};
+        int[] arr={1,4,45,6,12,8};
         int n=arr.length;
         boolean ans=hasArrayTwoCandidates(arr,n,13);
         System.out.println(ans);

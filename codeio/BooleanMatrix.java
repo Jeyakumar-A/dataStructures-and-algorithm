@@ -29,7 +29,7 @@ public class BooleanMatrix {
         
         } 
          for(int j=0;j<c;j++){
-            if(rows[j]==1){
+            if(cols[j]==1){
             for(int i=0;i<r;i++){
                 matrix[i][j]=1;
                 }
